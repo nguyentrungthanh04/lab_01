@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành An toàn thông tin nâng cao</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background-color:rgb(185, 213, 243);
+        }
+        .navbar-custom {
+            background-color: #007bff;
+        }
+        .navbar-custom .navbar-brand, .navbar-custom .nav-link {
+            color: #fff;
+        }
+        .container-custom {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .list-group-item {
+            transition: background-color 0.3s ease;
+        }
+        .list-group-item:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BẢO MẬT THÔNG TIN NÂNG CAO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/caesar">Ceasar Cipher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/vigenere">Vigenere Cipher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/railfence">RailFence Cipher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/playfair">PlayFair Cipher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/transposition">Transposition Cipher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/rsa">RSA Cipher</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container container-custom">
+        <div class="text-center">
+            <img src="https://file1.hutech.edu.vn/file/editor/homepage/stories/hinh34/logo%20CMYK-01.png" alt="hutech" class="img-fluid" style="width: 30%;">
+            <h1 class="mt-4" style="font-weight: bold;">BÀI THỰC HÀNH BẢO MẬT THÔNG TIN NÂNG CAO</h1>
+        </div>
+
+        <div class="list-group mt-4">
+            <a href="/caesar" class="list-group-item list-group-item-action">Ceasar Cipher</a>
+            <a href="/vigenere" class="list-group-item list-group-item-action">Vigenere Cipher</a>
+            <a href="/railfence" class="list-group-item list-group-item-action">RailFence Cipher</a>
+            <a href="/playfair" class="list-group-item list-group-item-action">PlayFair Cipher</a>
+            <a href="/transposition" class="list-group-item list-group-item-action">Transposition Cipher</a>
+            <a href="/rsa" class="list-group-item list-group-item-action">RSA Cipher</a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <p class="mb-0">© 2025 Bảo mật thông tin nâng cao. All rights reserved.</p>
+            <p class="mb-0">Liên hệ: <a href="mailto:DucTin@example.com" class="text-white">DucTin@example.com</a></p>
+            <div class="mt-2">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
